@@ -16,6 +16,7 @@ public class Questao07 {
             float primeiraNota = notas.nextFloat();
             System.out.println("Digite a segunda nota desses aluno");
             float segundaNota = notas.nextFloat();
+            float num = 2;
 
             float media = (primeiraNota + segundaNota) / 2;
         }finally {
