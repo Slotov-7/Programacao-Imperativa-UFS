@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # Programacao-Imperativa-UFS
-=======
+
 # Disciplina de Programação Imperativa
 
 Bem-vindo ao repositório da disciplina de Programação Imperativa da UFS com o Professor Rafael Vasconcelos! Este repositório foi criado para armazenar e organizar os recursos relacionados ao curso, incluindo códigos-fonte, materiais de estudo e projetos.
@@ -23,4 +23,4 @@ Se você tiver dúvidas ou precisar de ajuda, sinta-se à vontade para entrar em
 - Email: guilherme.araujo@dcomp.ufs.br
 
 Espero que este repositório seja uma ferramenta útil para o seu aprendizado em programação imperativa. Boa jornada de estudos!
->>>>>>> master
+
