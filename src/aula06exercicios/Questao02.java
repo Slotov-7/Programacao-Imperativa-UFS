@@ -9,14 +9,11 @@ import java.util.Random;
 
 public class Questao02 {
     public static void main(String[] args) {
-        Random aleatoro = new Random();
-        int menor = 100, maior = 0;
-
-        int contador = 1;
-        int valor = 0;
+        Random aleatorio = new Random();
+        int menor = 100, contador = 1, valor, maior =0;
 
         while (contador <= 50) {
-            valor = (int) aleatoro.nextInt(100);
+            valor = (int) aleatorio.nextInt(100);
             if(maior < valor){
                 maior = valor;
             }
