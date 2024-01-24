@@ -10,10 +10,10 @@ import java.util.Random;
 public class Questao02 {
     public static void main(String[] args) {
         Random aleatorio = new Random();
-        int menor = 100, contador = 1, valor, maior =0;
+        int menor = Integer.MAX_VALUE, contador = 1, valor, maior =0;
 
         while (contador <= 50) {
-            valor = (int) aleatorio.nextInt(100);
+            valor = aleatorio.nextInt(100);
             if(maior < valor){
                 maior = valor;
             }
