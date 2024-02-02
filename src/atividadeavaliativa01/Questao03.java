@@ -3,7 +3,7 @@
 série;
  Leia um valor positivo X;
  Calcule e mostre o valor da série a seguir;
-S= -X^2/3! +X^4/2! -X^6/1! + X^8/2! -X^10/3! +X^12/2! */
+S= -X^2/3! +X^4/2! -X^6/1! + X^8/2! -X^10/3! +X^12/2! ... */
 package atividadeavaliativa01;
 
 import java.util.Scanner;
