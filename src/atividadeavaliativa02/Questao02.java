@@ -16,10 +16,10 @@ public class Questao02 {
         int numero1, numero2;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite o primeiro número ");
+        System.out.print("Digite o primeiro número: ");
         numero1 = scanner.nextInt();
 
-        System.out.print("Digite o segundo número ");
+        System.out.print("Digite o segundo número: ");
         numero2 = scanner.nextInt();
 
         int mdc = calculadorMDC(numero1, numero2);
