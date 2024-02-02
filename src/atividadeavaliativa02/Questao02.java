@@ -1,3 +1,6 @@
+/*Faça um programa em Java para:
+ Ler 2 números inteiros; (0,2)
+ Calcular e imprimir corretamente o MDC entre os números lidos. (3,8)*/
 package atividadeavaliativa02;
 
 import java.util.Scanner;
