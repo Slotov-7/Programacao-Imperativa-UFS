@@ -39,7 +39,6 @@ public class Questao03 {
                 sinalsoma *= -1;
             }
             numDenominador += sinalsoma;
-            System.out.println(numDenominador);
         }
 
         System.out.printf("O valor da serie e: %.2f %n", valorS);

@@ -35,10 +35,10 @@ public class Questao01 {
                 divisor = new StringBuilder(divisor.substring(0, divisor.length() - 1));
                 if (somaPerfeito == numero){
                     System.out.println(divisor + "=" + numero);
-                    System.out.println("e perfeito");
+                    System.out.println("É perfeito");
                 }else{
-                    System.out.println(divisor + "=" + numero);
-                    System.out.println("nao e perfeito");
+                    System.out.println(divisor + "!=" + numero);
+                    System.out.println("Nao é perfeito");
                 }
 
             }
