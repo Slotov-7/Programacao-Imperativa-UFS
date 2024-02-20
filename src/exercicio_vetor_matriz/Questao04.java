@@ -11,33 +11,33 @@ import java.util.Scanner;
 
 public class Questao04 {
     public static void main(String[] args) {
-        char[] vetorGab = new char[20];
-        char[] vetorRespost = new char[20];
-        int qtdAcertos = 0;
-        double nota = 0;
+        char[] vetorGab = new char[20];// vetor de 20 posições
+        char[] vetorRespost = new char[20];// vetor de 20 posições
+        int qtdAcertos = 0;// variável para contar a quantidade de acertos
+        double nota = 0;// variável para armazenar a nota do aluno
 
-        Scanner sr = new Scanner(System.in);
-        System.out.println("Digite o gabarito:");
-        for (int i = 0; i < vetorRespost.length; i++) {
-            vetorGab[i] = sr.next().charAt(0);
+        Scanner sr = new Scanner(System.in);// instanciando o objeto Scanner
+        System.out.println("Digite o gabarito:");// mensagem para o usuário
+        for (int i = 0; i < vetorRespost.length; i++) {// laço de repetição para preencher o vetor do gabarito
+            vetorGab[i] = sr.next().charAt(0);// preenchendo o vetor
         }
 
-        for (int aluno = 1; aluno <= 50; aluno++) {
-            System.out.printf("Digite as respostas do %dº aluno: ", aluno);
-            for (int i = 0; i < vetorRespost.length; i++) {
-                vetorRespost[i] = sr.next().charAt(0);
-                if (vetorGab[i] == vetorRespost[i]) {
-                    qtdAcertos = qtdAcertos + 1;
+        for (int aluno = 1; aluno <= 50; aluno++) {// laço de repetição para os 50 alunos
+            System.out.printf("Digite as respostas do %dº aluno: ", aluno);// mensagem para o usuário
+            for (int i = 0; i < vetorRespost.length; i++) {// laço de repetição para preencher o vetor com as respostas do aluno
+                vetorRespost[i] = sr.next().charAt(0);// preenchendo o vetor
+                if (vetorGab[i] == vetorRespost[i]) {// condição para verificar se a resposta do aluno é igual ao gabarito
+                    qtdAcertos = qtdAcertos + 1;// incrementando a variável de acertos
                 }
             }
-            nota = qtdAcertos / 2f;
-            if(nota >= 6){
-                System.out.println("O estudante foi APROVADO com nota " + nota);
+            nota = qtdAcertos / 2f;// calculando a nota do aluno
+            if(nota >= 6){// condição para verificar se o aluno foi aprovado ou reprovado
+                System.out.println("O estudante foi APROVADO com nota " + nota);// mensagem para o usuário
             }else{
-                System.out.println("O estudante foi REPROVADO com nota " + nota);
+                System.out.println("O estudante foi REPROVADO com nota " + nota);// mensagem para o usuário
             }
-            System.out.println("O Gabarito é: " + Arrays.toString(vetorGab));
-            System.out.println("O Gabarito do aluno : " + Arrays.toString(vetorRespost));
+            System.out.println("O Gabarito é: " + Arrays.toString(vetorGab));// mensagem para o usuário
+            System.out.println("O Gabarito do aluno : " + Arrays.toString(vetorRespost));// mensagem para o usuário
         }
     }
 }
