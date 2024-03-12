@@ -23,8 +23,6 @@ public class Questao09 {
                 vetorB[i] = fatorial(vetorA[i]);
             }
         }
-
-
         System.out.println(Arrays.toString(vetorA));
         System.out.println(Arrays.toString(vetorB));
     }

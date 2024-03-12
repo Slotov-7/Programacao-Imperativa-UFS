@@ -24,7 +24,6 @@ public class Questao11 {
                 matrizDesenho [(matrizDesenho.length - 1) - i][j] = '*';// matriz[11][0] = matriz[11][11] = matriz[10][0] = matriz[10][11] = matriz[9][0] = matriz[9][11] = matriz[8][0] = matriz[8][11] = matriz[7][0] = matriz[7][11] = matriz[6][0] = matriz[6][11] = matriz[5][0] = matriz[5][11] = matriz[4][0] = matriz[4][11] = matriz[3][0] = matriz[3][11] = matriz[2][0] = matriz[2][11] = matriz[1][0] = matriz[1][11] = matriz[0][0] = matriz[0][11] = '*'
             }
         }
-        System.out.println();
         for(int i = 0; i < matrizDesenho.length; i++){//imprime a terceira imagem
             for (int j = 0; j < matrizDesenho[i].length; j++){
                 if (matrizDesenho[i][j] == '*'){// se o elemento da matriz na posicao i,j for igual a '*'
